@@ -1,0 +1,13 @@
+gcloud deployment-manager types list
+
+gcloud deployment-manager types list | grep network
+
+gcloud deployment-manager types list | grep firewall
+
+gcloud deployment-manager types list | grep instance
+
+gcloud deployment-manager deployments create [Deployment_Name] --config=[config.yaml] --preview
+
+gcloud deployment-manager deployments update [Deployment_Name]
+
+gcloud deployment-manager deployments delete [Deployment_Name]
