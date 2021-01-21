@@ -1,0 +1,9 @@
+imports:
+- path: qwiklabs.jinja
+outputs: null
+resources:
+- name: qwiklabs
+  type: qwiklabs.jinja
+  properties:
+    zone: us-central1-a
+    region: us-central1
